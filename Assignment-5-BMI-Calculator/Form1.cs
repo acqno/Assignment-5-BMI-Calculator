@@ -11,7 +11,7 @@ using System.Windows.Forms;
 /* Name: Alvun Quijano
  * Date: Aug 04, 2017
  * Desc: This is the BMI calculator project
- * Ver: 0.1 - Created the project
+ * Ver: 0.2 - Implemented the radio buttons for metric and imperial system
  */
 
 
@@ -22,6 +22,11 @@ namespace Assignment_5_BMI_Calculator
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void FormLayout_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
